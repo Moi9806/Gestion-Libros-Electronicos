@@ -6,11 +6,11 @@ El Sistema de Gestión de Libros Electrónicos es un proyecto desarrollado como 
 
 El sistema será desarrollado utilizando Go (Golang) y contará con servicios web REST para permitir la comunicación e intercambio de información con aplicaciones externas mediante solicitudes HTTP y respuestas en formato JSON.
 
-Objetivo general
+# Objetivo general
 
 Desarrollar un sistema de gestión de libros electrónicos que permita administrar de manera organizada la información de libros y usuarios, controlar los préstamos y devoluciones, realizar búsquedas y generar reportes, incorporando servicios web REST para facilitar la integración con otras aplicaciones.
 
-Funcionalidades principales
+# Funcionalidades principales
 
 El sistema contempla los siguientes módulos:
 
@@ -26,7 +26,7 @@ El sistema contempla los siguientes módulos:
 
 -Servicios web REST: permitir la comunicación con aplicaciones externas mediante endpoints HTTP e intercambio de datos JSON.
 
-Tecnologías y herramientas
+# Tecnologías y herramientas
 
 -Lenguaje de programación: Go (Golang).
 
@@ -36,7 +36,7 @@ Tecnologías y herramientas
 
 -Formato de intercambio de datos: JSON.
 
-Paquetes estándar de Go:
+# Paquetes estándar de Go:
 
 -fmt: presentación de mensajes y resultados.
 
@@ -54,7 +54,7 @@ Paquetes estándar de Go:
 
 -net/http: implementación del servidor y servicios web.
 
-Aplicación de la programación funcional
+# Aplicación de la programación funcional
 
 Se incorporarán principios de programación funcional mediante:
 
@@ -68,7 +68,7 @@ Se incorporarán principios de programación funcional mediante:
 
 -Organización modular del código.
 
-Estructura general del sistema
+# Estructura general del sistema
 
 El proyecto se organizará en módulos para facilitar su desarrollo y mantenimiento:
 
@@ -78,7 +78,12 @@ El proyecto se organizará en módulos para facilitar su desarrollo y mantenimie
 
 Nota: Esta estructura es una propuesta inicial y podrá modificarse durante el desarrollo.
 
-Alcance del proyecto
+# Funcionamiento general del sistema
+El sistema iniciará desde main.go, conectando los diferentes módulos para administrar libros, usuarios, préstamos y devoluciones. Cuando un usuario solicite un préstamo, se verificará que esté registrado y activo, y que el libro se encuentre disponible. Si las condiciones se cumplen, se registrará el préstamo y se actualizará la información en los archivos JSON de la carpeta datos/.
+
+Además, el sistema permitirá buscar libros, gestionar usuarios, registrar devoluciones y generar reportes estadísticos. Mediante la carpeta api/, se implementarán servicios web REST para permitir la comunicación con aplicaciones externas utilizando solicitudes HTTP e intercambio de información en formato JSON.
+
+# Alcance del proyecto
 
 El proyecto contempla el desarrollo de las funcionalidades principales para administrar una biblioteca digital, incluyendo la gestión de libros, usuarios, préstamos, devoluciones, búsquedas, reportes y servicios web REST.
 
@@ -86,12 +91,12 @@ El almacenamiento de información y la organización definitiva de los component
 
 No se contempla inicialmente el desarrollo de una aplicación móvil independiente ni una plataforma comercial de venta de libros.
 
-Estado del proyecto
+# Estado del proyecto
 
 En fase de planificación y diseño.
 
 Las funcionalidades descritas representan los objetivos previstos para el desarrollo del sistema y se implementarán progresivamente.
 
-Autor
+# Autor
 
-Moises Sandoval - Estudiante Ingenieria en Software
+Moises Sandoval - Estudiante Ingenieria en Software 
