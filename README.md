@@ -1,6 +1,7 @@
 # Gestion-Libros-Electronicos
 Proyecto de la materia PROGRAMACION ORIENTADA A OBJETOS 1-SIN-3A, de la carrera de Ingeniería en Software
-Descripción del proyecto
+
+# Descripción del proyecto
 
 El Sistema de Gestión de Libros Electrónicos es un proyecto desarrollado como parte de la carrera de Ingeniería en Software. Su propósito es facilitar la administración de una biblioteca digital mediante herramientas que permitan gestionar libros, usuarios, préstamos y devoluciones.
 
