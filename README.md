@@ -72,7 +72,7 @@ Estructura general del sistema
 
 El proyecto se organizará en módulos para facilitar su desarrollo y mantenimiento:
 
-<img width="344" height="442" alt="image" src="https://github.com/user-attachments/assets/0c0ce498-4b03-43c4-bdac-3e53ded76d58" />
+<img width="334" height="438" alt="image" src="https://github.com/user-attachments/assets/757e07a7-4d12-45c4-8ef5-5058fc5f3163" />
 
 
 Nota: Esta estructura es una propuesta inicial y podrá modificarse durante el desarrollo.
