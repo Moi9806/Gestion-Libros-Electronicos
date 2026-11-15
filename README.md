@@ -72,18 +72,8 @@ Estructura general del sistema
 
 El proyecto se organizará en módulos para facilitar su desarrollo y mantenimiento:
 
-Sistema-Gestion-Libros-Electronicos/
-│
-├── main.go
-├── libros/
-├── usuarios/
-├── prestamos/
-├── busqueda/
-├── reportes/
-├── servicios/
-│   └── rest/
-├── almacenamiento/
-└── README.md
+<img width="344" height="442" alt="image" src="https://github.com/user-attachments/assets/0c0ce498-4b03-43c4-bdac-3e53ded76d58" />
+
 
 Nota: Esta estructura es una propuesta inicial y podrá modificarse durante el desarrollo.
 
